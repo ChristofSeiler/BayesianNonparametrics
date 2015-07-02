@@ -16,7 +16,7 @@ SET(Boost_INCLUDE_DIRS CACHE PATH "")
 INCLUDE_DIRECTORIES(
   ${CMAKE_CURRENT_BINARY_DIR}
   ${CMAKE_CURRENT_SOURCE_DIR}
-  ${BayesianNonparametrics_SOURCE_DIR}/../LogDomainDemonsRegistration-Source/Code/
+  ${BayesianNonparametrics_SOURCE_DIR}/../PolyaffineTransformationTrees/
   ${BayesianNonparametrics_SOURCE_DIR}/include/
   ${Boost_INCLUDE_DIRS}
 )
